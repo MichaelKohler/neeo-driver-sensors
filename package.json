@@ -1,0 +1,27 @@
+{
+  "name": "neeo-driver-sensors",
+  "version": "0.0.1",
+  "description": "Handle sensors configured in NEEO as text labels",
+  "main": "index.js",
+  "scripts": {
+    "start": "node debug.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichaelKohler/neeo-driver-sensors.git"
+  },
+  "keywords": [
+    "neeo",
+    "sensors"
+  ],
+  "author": "Michael Kohler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MichaelKohler/neeo-driver-sensors/issues"
+  },
+  "homepage": "https://github.com/MichaelKohler/neeo-driver-sensors#readme",
+  "dependencies": {
+    "neeo-sdk": "^0.51.13"
+  }
+}
