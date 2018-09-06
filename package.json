@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/MichaelKohler/neeo-driver-sensors#readme",
   "dependencies": {
+    "axios": "^0.18.0",
+    "debug": "^3.1.0",
     "neeo-sdk": "^0.51.13"
   }
 }

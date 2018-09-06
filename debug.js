@@ -1,7 +1,7 @@
 "use strict";
 
 const neeoapi = require("neeo-sdk");
-const devices = require('./devices');
+const sdkDevices = require('./devices');
 const config = require('./lib/config');
 
 const BRAIN_IP = config.getBrainIP();
@@ -16,7 +16,7 @@ neeoapi
     brain: BRAIN_IP,
     port: 3278,
     name: 'debug-server',
-    devices: [...devices.devices],
+    devices: [...sdkDevices.devices],
   }, {})
   .then(() => console.log('SERVER_READY'))
   .catch((error) => {
