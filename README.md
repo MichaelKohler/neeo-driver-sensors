@@ -1,6 +1,8 @@
 NEEO Sensors - Add as textlabel
 =====
 
+**Disclaimer: don't even try, it won't work yet ;)**
+
 This "driver" searches for all configured sensors in the NEEO project and exposes them as regularly updating text labels to show them on shortcut pages.
 
 **Note:** This currently does not work with the current public SDK release. It will work with > 0.52.0.
